@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>High Priority Cases</name>
+    <queueMembers>
+        <users>
+            <user>integration@00d5j00000d98zoeab.com</user>
+            <user>trailhead20.c4ej2qilcfda.6atemoptw6qa@example.com</user>
+            <user>trailhead12.tkvqwt7lmieg.bxl6vnwx5etf.lkzpac92i628@example.com</user>
+            <user>ssatyamss4298@gmail.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

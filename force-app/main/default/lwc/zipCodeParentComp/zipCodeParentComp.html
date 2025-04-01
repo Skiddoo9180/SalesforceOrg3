@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Zip Code Searcher">
+     <lightning-combobox
+                name="country"
+                label="Country Name"
+                value={selectedCountry}
+                placeholder="Select Country"
+                options={countryName}
+                onchange={countrySelectionHandler}
+                required=true>
+            </lightning-combobox>
+    <lightning-input label="Enter Zip Code" value={zipcode} onchange={handleZipChange} required=true></lightning-input>
+    <lightning-button label="Submit" onclick={handleSubmit} disabled={isDisabled}></lightning-button>
+    </lightning-card>
+</template>
